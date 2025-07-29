@@ -1,4 +1,4 @@
-const dataProcessorService = require('../services/dataProcessorService');
+const dataProcessor = require('../services/dataProcessor');
 
 
 exports.processData = (req, res, next) => {
@@ -17,9 +17,9 @@ exports.processData = (req, res, next) => {
 
         const response = {
             is_success: true,
-            user_id: "jane_doe_29072025",
-            email: "jane.doe@example.com",
-            roll_number: "JD12345",
+            user_id: "pratyush_kumar_15052005",
+            email: "pratyush2082.be22@chitkara.edu.in",
+            roll_number: "2210992082",
             ...processedData
         };
 
